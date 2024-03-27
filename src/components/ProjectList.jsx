@@ -15,6 +15,7 @@ import CyberTise from '../assets/images/png/cybertise.png'
 import Formvalid from '../assets/images/png/form-validation.png'
 import Pixelperfect from '../assets/images/png/pixelperfect.png'
 import viteslider from '../assets/images/png/Vite-project.png'
+import Monthlist from '../assets/images/png/monthproject.png'
 
 const ProjectList = () => {
     const [opentab, setOpentab] = useState(1);
@@ -208,6 +209,17 @@ const ProjectList = () => {
                                 <a href="https://github.com/khushi303/myviteproject" target='_blank' className='text-[22px] font-semibold hover:text-teal-700 transition-all duration-300 ease-linear'>https://github.com/khushi303/myviteproject</a>
                                 <h3 className=' text-[28px] font-bold text-black mb-2 mt-4'>Live Link:</h3>
                                 <a href="https://vite-slider.netlify.app/" target='_blank' className='text-[22px] font-semibold hover:text-teal-700 transition-all duration-300 ease-linear'>https://vite-slider.netlify.app/</a>
+                            </div>
+                        </div>
+                        <div className='flex justify-between items-center mt-10'>
+                            <div className='w-[40%]'>
+                                <img src={Monthlist} alt="Monthlist" className='w-full rounded-2xl' />
+                            </div>
+                            <div className='w-[55%]'>
+                                <h3 className=' text-[28px] font-bold text-black mb-2'>GitHub Link:</h3>
+                                <a href="https://github.com/khushi303/monthlyprojectlist" target='_blank' className='text-[22px] font-semibold hover:text-teal-700 transition-all duration-300 ease-linear'>https://github.com/khushi303/monthlyprojectlist</a>
+                                <h3 className=' text-[28px] font-bold text-black mb-2 mt-4'>Live Link:</h3>
+                                <a href="https://monthlyprojectlist.vercel.app/" target='_blank' className='text-[22px] font-semibold hover:text-teal-700 transition-all duration-300 ease-linear'>https://monthlyprojectlist.vercel.app/</a>
                             </div>
                         </div>
                     </div>
