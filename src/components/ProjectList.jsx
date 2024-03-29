@@ -16,6 +16,7 @@ import Formvalid from '../assets/images/png/form-validation.png'
 import Pixelperfect from '../assets/images/png/pixelperfect.png'
 import viteslider from '../assets/images/png/Vite-project.png'
 import Monthlist from '../assets/images/png/monthproject.png'
+import doimg from '../assets/images/png/doimg.png'
 
 const ProjectList = () => {
     const [opentab, setOpentab] = useState(1);
@@ -131,7 +132,6 @@ const ProjectList = () => {
                                 <a href="https://nex-ai-01.netlify.app/" target='_blank' className='text-[22px] font-semibold hover:text-teal-700 transition-all duration-300 ease-linear'>https://nex-ai-01.netlify.app/</a>
                             </div>
                         </div>
-
                     </div>
                     <div className={opentab === 3 ? "block" : "hidden"}>
                         <div className='flex justify-between items-center'>
@@ -220,6 +220,17 @@ const ProjectList = () => {
                                 <a href="https://github.com/khushi303/monthlyprojectlist" target='_blank' className='text-[22px] font-semibold hover:text-teal-700 transition-all duration-300 ease-linear'>https://github.com/khushi303/monthlyprojectlist</a>
                                 <h3 className=' text-[28px] font-bold text-black mb-2 mt-4'>Live Link:</h3>
                                 <a href="https://monthlyprojectlist.vercel.app/" target='_blank' className='text-[22px] font-semibold hover:text-teal-700 transition-all duration-300 ease-linear'>https://monthlyprojectlist.vercel.app/</a>
+                            </div>
+                        </div>
+                        <div className='flex justify-between items-center mt-10'>
+                            <div className='w-[40%]'>
+                                <img src={doimg} alt="doimg" className='w-full rounded-2xl' />
+                            </div>
+                            <div className='w-[55%]'>
+                                <h3 className=' text-[28px] font-bold text-black mb-2'>GitHub Link:</h3>
+                                <a href="https://github.com/khushi303/to-do-app" target='_blank' className='text-[22px] font-semibold hover:text-teal-700 transition-all duration-300 ease-linear'>https://github.com/khushi303/to-do-app</a>
+                                <h3 className=' text-[28px] font-bold text-black mb-2 mt-4'>Live Link:</h3>
+                                <a href="https://to-do-app-nu-gilt.vercel.app/" target='_blank' className='text-[22px] font-semibold hover:text-teal-700 transition-all duration-300 ease-linear'>https://to-do-app-nu-gilt.vercel.app/</a>
                             </div>
                         </div>
                     </div>
