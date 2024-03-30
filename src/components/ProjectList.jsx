@@ -197,7 +197,7 @@ const ProjectList = () => {
                                 <h3 className=' text-[28px] font-bold text-black mb-2'>GitHub Link:</h3>
                                 <a href="https://github.com/khushi303/pixelperfect" target='_blank' className='text-[22px] font-semibold hover:text-teal-700 transition-all duration-300 ease-linear'>https://github.com/khushi303/pixelperfect</a>
                                 <h3 className=' text-[28px] font-bold text-black mb-2 mt-4'>Live Link:</h3>
-                                <a href="https://https://pixelperfect-seven.vercel.app/" target='_blank' className='text-[22px] font-semibold hover:text-teal-700 transition-all duration-300 ease-linear'>https://pixelperfect-seven.vercel.app/</a>
+                                <a href="https://pixelperfect-seven.vercel.app/" target='_blank' className='text-[22px] font-semibold hover:text-teal-700 transition-all duration-300 ease-linear'>https://pixelperfect-seven.vercel.app/</a>
                             </div>
                         </div>
                         <div className='flex justify-between items-center mt-10'>
