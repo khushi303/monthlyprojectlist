@@ -17,6 +17,7 @@ import Pixelperfect from '../assets/images/png/pixelperfect.png'
 import viteslider from '../assets/images/png/Vite-project.png'
 import Monthlist from '../assets/images/png/monthproject.png'
 import doimg from '../assets/images/png/doimg.png'
+import NobleMind from '../assets/images/png/noblemind.png'
 
 const ProjectList = () => {
     const [opentab, setOpentab] = useState(1);
@@ -235,8 +236,16 @@ const ProjectList = () => {
                         </div>
                     </div>
                     <div className={opentab === 4 ? "block" : "hidden"}>
-                        <div className='w-full h-[100px] flex items-center justify-center'>
-                            <p className='text-center text-[30px] font-bold'>Coming Soon</p>
+                        <div className='flex justify-between items-center'>
+                            <div className='w-[40%]'>
+                                <img src={NobleMind} alt="NobleMind" className='w-full rounded-2xl' />
+                            </div>
+                            <div className='w-[55%]'>
+                                <h3 className=' text-[28px] font-bold text-black mb-2'>GitHub Link:</h3>
+                                <a href="https://github.com/khushi303/noble-mind" target='_blank' className='text-[22px] font-semibold hover:text-teal-700 transition-all duration-300 ease-linear'>https://github.com/khushi303/noble-mind</a>
+                                <h3 className=' text-[28px] font-bold text-black mb-2 mt-4'>Live Link:</h3>
+                                <a href="https://noble-mind-ten.vercel.app/" target='_blank' className='text-[22px] font-semibold hover:text-teal-700 transition-all duration-300 ease-linear'>https://noble-mind-ten.vercel.app/</a>
+                            </div>
                         </div>
                     </div>
                 </div>
