@@ -18,6 +18,7 @@ import viteslider from '../assets/images/png/Vite-project.png'
 import Monthlist from '../assets/images/png/monthproject.png'
 import doimg from '../assets/images/png/doimg.png'
 import NobleMind from '../assets/images/png/noblemind.png'
+import FormaValidation from '../assets/images/png/Form-Validation2.png'
 
 const ProjectList = () => {
     const [opentab, setOpentab] = useState(1);
@@ -245,6 +246,28 @@ const ProjectList = () => {
                                 <a href="https://github.com/khushi303/noble-mind" target='_blank' className='text-[22px] font-semibold hover:text-teal-700 transition-all duration-300 ease-linear'>https://github.com/khushi303/noble-mind</a>
                                 <h3 className=' text-[28px] font-bold text-black mb-2 mt-4'>Live Link:</h3>
                                 <a href="https://noble-mind-ten.vercel.app/" target='_blank' className='text-[22px] font-semibold hover:text-teal-700 transition-all duration-300 ease-linear'>https://noble-mind-ten.vercel.app/</a>
+                            </div>
+                        </div>
+                        <div className='flex justify-between items-center'>
+                            <div className='w-[40%]'>
+                                <img src={NobleMind} alt="NobleMind" className='w-full rounded-2xl' />
+                            </div>
+                            <div className='w-[55%]'>
+                                <h3 className=' text-[28px] font-bold text-black mb-2'>GitHub Link:</h3>
+                                <a href="https://github.com/khushi303/cupidui" target='_blank' className='text-[22px] font-semibold hover:text-teal-700 transition-all duration-300 ease-linear'>https://github.com/khushi303/cupidui</a>
+                                <h3 className=' text-[28px] font-bold text-black mb-2 mt-4'>Live Link:</h3>
+                                <a href="https://cupidui.vercel.app/" target='_blank' className='text-[22px] font-semibold hover:text-teal-700 transition-all duration-300 ease-linear'>https://cupidui.vercel.app/</a>
+                            </div>
+                        </div>
+                        <div className='flex justify-between items-center'>
+                            <div className='w-[40%]'>
+                                <img src={FormaValidation} alt="FormaValidation" className='w-full rounded-2xl' />
+                            </div>
+                            <div className='w-[55%]'>
+                                <h3 className=' text-[28px] font-bold text-black mb-2'>GitHub Link:</h3>
+                                <a href="https://github.com/khushi303/aprilpractice" target='_blank' className='text-[22px] font-semibold hover:text-teal-700 transition-all duration-300 ease-linear'>https://github.com/khushi303/aprilpractice</a>
+                                <h3 className=' text-[28px] font-bold text-black mb-2 mt-4'>Live Link:</h3>
+                                <a href="https://aprilpractice.vercel.app/" target='_blank' className='text-[22px] font-semibold hover:text-teal-700 transition-all duration-300 ease-linear'>https://aprilpractice.vercel.app/</a>
                             </div>
                         </div>
                     </div>
