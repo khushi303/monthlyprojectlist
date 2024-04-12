@@ -19,6 +19,7 @@ import Monthlist from '../assets/images/png/monthproject.png'
 import doimg from '../assets/images/png/doimg.png'
 import NobleMind from '../assets/images/png/noblemind.png'
 import FormaValidation from '../assets/images/png/Form-Validation2.png'
+import CupidUi from '../assets/images/png/cupidui.png'
 
 const ProjectList = () => {
     const [opentab, setOpentab] = useState(1);
@@ -250,7 +251,7 @@ const ProjectList = () => {
                         </div>
                         <div className='flex justify-between items-center'>
                             <div className='w-[40%]'>
-                                <img src={NobleMind} alt="NobleMind" className='w-full rounded-2xl' />
+                                <img src={CupidUi} alt="CupidUi" className='w-full rounded-2xl' />
                             </div>
                             <div className='w-[55%]'>
                                 <h3 className=' text-[28px] font-bold text-black mb-2'>GitHub Link:</h3>
