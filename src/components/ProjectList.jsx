@@ -20,6 +20,7 @@ import doimg from '../assets/images/png/doimg.png'
 import NobleMind from '../assets/images/png/noblemind.png'
 import FormaValidation from '../assets/images/png/Form-Validation2.png'
 import CupidUi from '../assets/images/png/cupidui.png'
+import kavauptheme from '../assets/images/png/Kava-up-Theme.png'
 
 const ProjectList = () => {
     const [opentab, setOpentab] = useState(1);
@@ -269,6 +270,17 @@ const ProjectList = () => {
                                 <a href="https://github.com/khushi303/aprilpractice" target='_blank' className='text-[22px] font-semibold hover:text-teal-700 transition-all duration-300 ease-linear'>https://github.com/khushi303/aprilpractice</a>
                                 <h3 className=' text-[28px] font-bold text-black mb-2 mt-4'>Live Link:</h3>
                                 <a href="https://aprilpractice.vercel.app/" target='_blank' className='text-[22px] font-semibold hover:text-teal-700 transition-all duration-300 ease-linear'>https://aprilpractice.vercel.app/</a>
+                            </div>
+                        </div>
+                        <div className='flex justify-between items-center'>
+                            <div className='w-[40%]'>
+                                <img src={kavauptheme} alt="kavauptheme" className='w-full rounded-2xl' />
+                            </div>
+                            <div className='w-[55%]'>
+                                <h3 className=' text-[28px] font-bold text-black mb-2'>GitHub Link:</h3>
+                                <a href="https://github.com/khushi303/kavauptheme" target='_blank' className='text-[22px] font-semibold hover:text-teal-700 transition-all duration-300 ease-linear'>https://github.com/khushi303/kavauptheme</a>
+                                <h3 className=' text-[28px] font-bold text-black mb-2 mt-4'>Live Link:</h3>
+                                <a href="https://kavauptheme.vercel.app/" target='_blank' className='text-[22px] font-semibold hover:text-teal-700 transition-all duration-300 ease-linear'>https://kavauptheme.vercel.app/</a>
                             </div>
                         </div>
                     </div>
