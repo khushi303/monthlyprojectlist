@@ -251,7 +251,7 @@ const ProjectList = () => {
                                 <a href="https://noble-mind-ten.vercel.app/" target='_blank' className='text-[22px] font-semibold hover:text-teal-700 transition-all duration-300 ease-linear'>https://noble-mind-ten.vercel.app/</a>
                             </div>
                         </div>
-                        <div className='flex justify-between items-center'>
+                        <div className='flex justify-between items-center mt-10'>
                             <div className='w-[40%]'>
                                 <img src={CupidUi} alt="CupidUi" className='w-full rounded-2xl' />
                             </div>
@@ -262,7 +262,7 @@ const ProjectList = () => {
                                 <a href="https://cupidui.vercel.app/" target='_blank' className='text-[22px] font-semibold hover:text-teal-700 transition-all duration-300 ease-linear'>https://cupidui.vercel.app/</a>
                             </div>
                         </div>
-                        <div className='flex justify-between items-center'>
+                        <div className='flex justify-between items-center mt-10'>
                             <div className='w-[40%]'>
                                 <img src={FormaValidation} alt="FormaValidation" className='w-full rounded-2xl' />
                             </div>
@@ -273,7 +273,7 @@ const ProjectList = () => {
                                 <a href="https://aprilpractice.vercel.app/" target='_blank' className='text-[22px] font-semibold hover:text-teal-700 transition-all duration-300 ease-linear'>https://aprilpractice.vercel.app/</a>
                             </div>
                         </div>
-                        <div className='flex justify-between items-center'>
+                        <div className='flex justify-between items-center mt-10'>
                             <div className='w-[40%]'>
                                 <img src={kavauptheme} alt="kavauptheme" className='w-full rounded-2xl' />
                             </div>
@@ -284,7 +284,7 @@ const ProjectList = () => {
                                 <a href="https://kavauptheme.netlify.app/" target='_blank' className='text-[22px] font-semibold hover:text-teal-700 transition-all duration-300 ease-linear'>https://kavauptheme.netlify.app/</a>
                             </div>
                         </div>
-                        <div className='flex justify-between items-center'>
+                        <div className='flex justify-between items-center mt-10'>
                             <div className='w-[40%]'>
                                 <img src={fluff} alt="fluff" className='w-full rounded-2xl' />
                             </div>
